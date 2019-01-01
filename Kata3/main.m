@@ -8,10 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+#import "TalkingCalendar.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        TalkingCalendar *calendar1 = [[TalkingCalendar alloc] initWithDate:@"2017/12/02"];
+        NSLog(@"%@", [calendar1 parse]);
+        TalkingCalendar *calendar2 = [[TalkingCalendar alloc] initWithDate:@"2007/11/11"];
+        NSLog(@"%@", [calendar2 parse]);
+        TalkingCalendar *calendar3 = [[TalkingCalendar alloc] initWithDate:@"1987/08/24"];
+        NSLog(@"%@", [calendar3 parse]);
     }
     return 0;
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F4F272421DBE02E009DED40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F272321DBE02E009DED40 /* main.m */; };
+		9F4F272C21DBE05A009DED40 /* TalkingCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F272B21DBE05A009DED40 /* TalkingCalendar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9F4F272021DBE02E009DED40 /* Kata3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kata3; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4F272321DBE02E009DED40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4F272A21DBE05A009DED40 /* TalkingCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkingCalendar.h; sourceTree = "<group>"; };
+		9F4F272B21DBE05A009DED40 /* TalkingCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkingCalendar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9F4F272321DBE02E009DED40 /* main.m */,
+				9F4F272A21DBE05A009DED40 /* TalkingCalendar.h */,
+				9F4F272B21DBE05A009DED40 /* TalkingCalendar.m */,
 			);
 			path = Kata3;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4F272C21DBE05A009DED40 /* TalkingCalendar.m in Sources */,
 				9F4F272421DBE02E009DED40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
